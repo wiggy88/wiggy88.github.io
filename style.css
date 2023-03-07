@@ -1,36 +1,231 @@
-h1, 
-h2, 
-h3, 
-p {
-  font-family: "Helvetica", sans-serif;
+h1{
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    color: orange;
+    text-decoration: underline;
+    text-align: center;
+}
+h3{
+    color: yellow;
+    text-decoration: underline;
+    text-align: center;
+}
+h4{
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+
+}
+h5{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+h6{
+    color: purple;
+    text-decoration: underline;
+    text-align: center;
+
+}
+.container{
+    width: 100%;
+    border: 3px solid black
+    
 }
 
-h1 {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
-  text-align: center;
-  font-size: 100px;
-  color: khaki;
+#colorboxblue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width 2s, height 2s;
+}
+#colorboxblue:hover{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    display: inline-block;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: ease;
+    
 }
 
-.item h2 {
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
+#colorboxred{
+    position: absolute;
+    left: 330px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width 2s, height 2s;
+}
+#colorboxred:hover{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(184, 47, 47);
+    display: inline-block;
+    border-radius: 0%;
+    cursor: pointer;
+    transition-timing-function: ease;
+    border-radius: 50px;
+        
+    
+
+}
+#colorboxyellow{
+    position: absolute;
+    right: 680px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width 2s, height 2s;
+}
+#colorboxyellow:hover{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(189, 189, 3);
+    border-radius: 0%;
+    cursor: pointer;
+    transition-timing-function: ease;
+    border-radius: 50px;
+
+}
+#colorboxgreen{
+    position: absolute;
+    right: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width 2s, height 2s;
+}
+#colorboxgreen:hover{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(28, 248,28);
+    display: inline-block;    
+    cursor: pointer;
+    transition-timing-function: ease;
+    border-radius: 50px;
+   
+    
+    
+}
+#colorboxpink{
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width 2s, height 2s;
+}
+#colorboxpink:hover{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    display: inline-block;    
+    cursor: pointer;
+    transition-timing-function: ease;
+    border-radius: 50px;
+    
 }
 
-.price {
-  font-weight: bold;
-  color: blue;
+p{
+    text-align: center;
+    color: black;
+    font-size: large;
 }
 
-#brush {
-  background-color: mediumspringgreen;
+.helv{
+    position: absolute;
+    left: 380px;
+    top: 429px;
+    width: auto;
+    height: 150px;
+    width: 300px;
+    border: solid;
+    display: inline-block;
+    padding-top: 6px;
+    background-color: aqua;
+    transition: 2s, 2s;
+    
+}
+.helv:hover{
+    
+    width: auto;
+    height: 150px;
+    width: 300px;
+    border: solid;
+    display: inline-block;
+    padding-top: 6px;
+    cursor: pointer;
+    transition-timing-function: ease;
 }
 
-#frame {
-  background-color: lightcoral;
+.helv p{
+    font-family: "dancing script";
+    text-align: center;
+    text-shadow: chocolate;
+}
+.helv p:hover{
+    font-family: smokum;
 }
 
-#paint {
-  background-color: skyblue;
+.helv1{
+    position: absolute;
+    right: 100px;
+    top: 428px;
+    background-color: red;
+    width: auto;
+    height: 150px;
+    width: 300px;
+    border: solid;
+    display: inline-block;
+    padding-bottom: 7px;
+
+}
+.helv1 p{
+    font-family: "shantell sans";
+}
+.helv2{
+    position: absolute;
+    right: 480px;
+    top: 430px;
+    background-color: gold;
+    width: auto;
+    height: 150px;
+    width: 300px;
+    border: solid;
+    display: inline-block;
+    padding-bottom: ;
+    padding-top: 5px
+}
+
+.helv2 p{
+    font-family: smokum;
+}
+
+.helv3{
+    padding: 8px;
+    height: 150px;
+    width: 300px;
+    border: solid;
+    display: inline-block;
+    
 }
