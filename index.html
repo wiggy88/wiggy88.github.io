@@ -1,78 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Design site</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shantell+Sans:ital,wght@0,300;0,400;1,300&family=Smokum&display=swap" rel="stylesheet">
+        <title>TeaShop</title>
         <link href="style.css" rel="stylesheet">
     </head>
+    <body>
+        <header>
+            <nav>
+                <img id="logo" src=https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png>
+                <ul>
+                    <li><a href="#mission"></a>Mission</li>
+                    <li><a href="#featured-tea"></a> Featured Tea</li>
+                    <li><a href="#locations"></a> Locations</li>
+                </ul>
+        
+            </nav>    
+
+        </header>
+        <main>
     
-        <body>
-            <div class="container">
-                <h1>Colours!!(colors)</h1>
-                <div id="colorboxblue">
-                    <p>Blue</p>
-                    <p>RGB(0, 0, 255)</p>
-                </div>
-                <div id="colorboxred">
-                    <p>Red</p>
-                    <p>RGB(255, 0, 0)</p>
-                </div>
-                <div id="colorboxyellow">
-                    <p>Yellow</p>
-                    <p>RGB(255, 255, 0)</p>
-                </div>
-                <div id="colorboxgreen">
-                    <p>Green</p>
-                    <p>RGB(0, 128, 0)</p>
-                </div>
-                <div id="colorboxpink">
-                    <p id="pinkbox">Pink</p>
-                    <p>RGB(255, 192, 203)</p>
-                </div>
-
-                <p>There are 16777216 different RGB colours to select from , these coloured boxes use the transition-timing-function. with the width and height set to 
-                    a 2s delay. </p>
-            </div>
-
-            <div class="container">
-                <h1>Font Styles</h1>
-                <div class="helv3"> <article><strong>Fonts can be linked using the google fonts site, copy and paste the link into the head section of the page!</article></br>
-                    Fonts come in different text-styles and font-weight</strong> </article>
-                </div>
-                
-                <div class="helv">
-
-                    <p>Dancing Script</br>
-                       I love you</br>
-                       baby</br> 
-                    </p>
+            <section id="mission">
+            
+                <div id="mission-title">
+                    <h2>Our Mission</h2>
+                    <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
                     
                 </div>
-                <div class="helv1">
-                    <p>Shantell sans</p>
-                    <p>Your my world!!</p>
-                    <p id="ssitalic">Italic</p>
-                </div>
-                <div class="helv2">
-                    <p>Smokum</p>
-                    <p>stuck with me!!</p>
-                    <p id="smokum">Bold</p>
-                </div>
-
-                <div class="container">
-                    <h1 id="headtitle">Heading sizes</h1>
-                    <h1>Red h1 heading</h1>
-                    <h2>Orange h2 heading</h2>
-                    <h3>Yellow h3 heading</h3>
-                    <h4>Green h4 heading</h4>
-                    <h5>Blue h5 heading</h5>
-                    <h6>Purple h6 heading</h6>
-
-                    <p>These heading have all been styled using "text-decoration: underline"</p>
-                </div>
-            </div>
-        </body>
     
+            
+
+            </section>
+        
+ 
+
+            <section id="featured-tea">
+                <header>
+                    <h2>Tea of the Month</h2>
+                    <p>Whats steeping at the Tea Cozy?</p>
+                </header>
+                <figure>
+                    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg">
+                    <figcaption>Bedford Bizarre</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg">
+                    <figcaption>Berry Blitz</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg">
+                    <figcaption>Seasonal Donuts</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg">
+                    <figcaption>Myrtle Ave</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg">
+                    <figcaption>Spiced Rum</figcaption>
+                </figure>
+                
+            </section>
+        
+            <section id="locations">
+                <div class="location-container">
+                    <h3>Downtown</h3>
+                    <p>384 west 4th st</p>
+                    <p>Suite 108</p>
+                    <p>Portland, maine</p>
+                </div>
+
+                <div class="location-container">
+                    <h3>East Bayside</h3>
+                    <p>3433 Phiserman's Avenue</p>
+                    <p>(Northwest Corner)</p>
+                    <p>Portland, maine</p>
+                </div>
+
+                <div class="location-container">
+                    <h3>Oakdale</h3>
+                    <p>515 Crescent Avenue</p>
+                    <p>Second Floor</p>
+                    <p>Portland, maine</p>
+                </div>
+
+
+
+            </section>
+        <main>
+    </body>
+    <footer>
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+        <span id="copyright"><h5>Copyright The Tea Cozy 2023</h5></span>
+    </footer>
 </html>
