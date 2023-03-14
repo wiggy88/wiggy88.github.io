@@ -1,24 +1,30 @@
-
-
-
 body{
   background-image: url(https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3Rvcm1zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
   background-repeat: no-repeat;
   background-size: cover;
+}
+a{
+  color: red;
+  
 }
 p{
   color: aquamarine;
   text-align: center;
   
 }
-
 header{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    
+    align-items: center;   
   }
+#logo{
+  position: absolute;
+  width:75px;
+  height: 75px;
+  border-radius: 20%;
+  right: 870px;
+  top: 0px;
+}
 h1{
   font-size: 2rem;
   color: aquamarine;
@@ -33,20 +39,26 @@ h1{
     font-size: 20px;
   }
 }
+h2{
+  text-align: center;
+  color: hsl(124, 100%, 75%)
+}
 
 .navbar{
+  display: flow;
+  position: fixed;
+  
    
   
 }
 .navbar p{
-  display: inline-flex;
-  padding: 10px 10px;
-  padding-right: px;
+  
+  padding: 1px 10px;
   color: aquamarine;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
-.container{
+#images{
 
   display: flex;
   flex-wrap: wrap;
@@ -54,14 +66,14 @@ h1{
   align-content: center;
 }
 
-.container img{
+#images img{
   
   width: 200px;
   height: 200px;
   
   border-radius: 10%
 }
-.container img:hover{
+#images img:hover{
   
   cursor: pointer;
 }
@@ -78,10 +90,54 @@ figcaption:hover{
   font-size: 1.5rem;
 }
 span{
-  color: red;
+  color: gold;
 }
 #fish{
+  display: center;
   width: 200px;
   height: 200px;
+  padding-left: 43%;
+}
+#fish figcaption{
+  
+}
+#contact{
+  position: absolute;
+  right: 40%
+  
+  
+}
+
+#contact p{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#frames{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-bottom: 8%;
+  
+}
+
+#frames img{
+  width: 250px;
   border-radius: 10%;
+}
+
+#fishcap{
+  color: black;
+  font-weight: bold;
+  
+}
+#email{
+  color: blue;
+  font-size: 1.9rem;
+  text-decoration: underline;
+}
+#phone{
+  color: gold;
+  font-size: 1.9rem;
+  text-decoration: underline; 
 }
