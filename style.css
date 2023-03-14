@@ -46,7 +46,7 @@ h2{
 
 .navbar{
   display: flow;
-  position: fixed;
+  
   
    
   
@@ -96,17 +96,20 @@ span{
   display: center;
   width: 200px;
   height: 200px;
-  padding-left: 43%;
-}
-#fish figcaption{
+  padding-left: 22%;
   
 }
-#contact{
+
+  
+
+/*#contact{
   position: absolute;
-  right: 40%
-  
-  
+  right: 40%;
+  text-align: center;
 }
+  */
+    
+
 
 #contact p{
   color: black;
@@ -115,12 +118,22 @@ span{
 }
 #frames{
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   padding-top: 5%;
   padding-bottom: 8%;
+  align-content: center;
   
 }
-
+footer{
+  display: flex;
+  flex-flow: column
+  
+  
+  
+  
+  
+}
 #frames img{
   width: 250px;
   border-radius: 10%;
